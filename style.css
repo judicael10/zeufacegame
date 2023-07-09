@@ -1,0 +1,226 @@
+.formulair-contenair{
+    border: 1px solid #333;
+    box-shadow: 1px 1px 4px  #333;
+    margin: auto;
+    background:#317ac1;
+    padding: 15px;
+
+}
+.image{
+    width: 100%;
+}
+*{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+.from{
+    margin-top: 10%;
+    width: 100%;
+}
+
+button{
+    margin-top: 20px;
+    padding: 6px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn1{
+    background-color: #0067b8;
+      color: #ffffff;
+      cursor: pointer;
+      border: none;
+      outline: none;
+}
+.btn1:hover{
+    background-color: #005da6;
+}
+
+.btn2{
+    background-color: rgba(0,0,0,0.2);
+      text-align: center;
+      border: none;
+      outline: none;
+      white-space: nowrap;
+      overflow: hidden;
+      vertical-align: middle;
+      text-overflow: ellipsis;
+      touch-action: manipulation;
+      color: #000;
+      cursor: pointer;
+}
+
+img{
+    height: 290px;
+}
+
+.btn2:hover{
+    color: #333;
+    cursor: pointer;
+}
+
+body{
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+@media (max-width: 991px){
+
+    .from{
+        margin-top: 30%;
+        width: 100%;
+    }
+    
+}
+
+/* fin de la parge d'acceuil */
+
+/* incrption.html >>>>>>>>>>>>>>> */
+/* Microsoft log in page made by: csozi | Website: english.csozi.hu*/
+
+.form {
+    /*Scale only to make it look right on the preview*/
+      scale: 0.8;
+      height: 250px;
+      box-sizing: content-box;
+      padding: 44px;
+      margin: auto;
+    }
+    
+    .form .title {
+      color: #1b1b1b;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: 0;
+      margin-top: 16px;
+      margin-bottom: 12px;
+      font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    }
+    
+    .form .email {
+      width: 100%;
+      padding: 6px 10px 6px 0px;
+      border-style: solid;
+      border-width: 0px;
+      border-bottom-width: 1px;
+      border-color: rgba(0, 0, 0, 0.6);
+      height: 36px;
+      outline: none;
+      background-color: transparent;
+      padding-left: 0;
+      color: #000000;
+      margin-bottom: 16px;
+    }
+    
+    .form .email {
+      border-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .form .text {
+      color: #1b1b1b;
+      font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+      font-weight: 400;
+      line-height: 1.25rem;
+      margin-bottom: 16px;
+      font-size: .8125rem;
+    }
+    
+    .form .text a {
+      color: #0067B8;
+    }
+    
+    .form .button_row {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      height: fit-content;
+      gap: 4px;
+    }
+    
+    .form .button_row .button {
+      width: 108px;
+      height: 32px;
+      box-sizing: content-box;
+      padding: 4 12 4 12;
+      border: none;
+      font-size: 15px;
+    }
+    
+    .form .button_row .secondary_button {
+      background-color: rgba(0,0,0,0.2);
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      vertical-align: middle;
+      text-overflow: ellipsis;
+      touch-action: manipulation;
+      color: #000;
+      cursor: pointer;
+    }
+
+    .form .button_row .secondary_button a{
+        color: #000;
+    }
+    
+    .form .button_row .secondary_button:hover {
+      background-color: rgba(0,0,0,0.3);
+    }
+    
+    .form .button_row .primary_button {
+      background-color: #0067b8;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .form .button_row .primary_button a{
+        color: white;
+    }
+    
+    .form .button_row .primary_button:hover {
+      background-color: #005da6;
+    }
+
+
+.form img{
+    height: 100px;
+}
+
+.head-from{
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width: 991px){
+    .head-from{
+        display: block;
+        position: absolute;
+    }
+
+    .form{
+        position: relative;
+        margin-top: -99px;
+    }
+}
+
+
+.image-example1 img{
+    height: 200px;
+}
+
+.posit{
+    background:#005da6;
+    width: 100%;
+    color: white;
+    padding-bottom: 120px;
+}
+
+.posit p{
+   padding-top: 20px;
+}
